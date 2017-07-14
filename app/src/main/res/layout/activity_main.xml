@@ -7,11 +7,12 @@
     tools:context="com.lye.myapplication.MainActivity"
     android:weightSum="1">
 
-    <TextView
+    <ImageView
+        android:id="@+id/imageView"
+        android:scaleType="center"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@android:color/darker_gray"
-        android:textSize="45sp"
-        android:text="Hello World" />
+        android:src="@drawable/lalaland" />
+
 
 </LinearLayout>
